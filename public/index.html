@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Reminder App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Payment Reminder App</h1>
+  <form id="reminderForm">
+    <label for="phoneNumber">Phone Number:</label>
+    <input type="text" id="phoneNumber" name="phoneNumber"><br><br>
+    <label for="dateTime">Date and Time:</label>
+    <input type="datetime-local" id="dateTime" name="dateTime"><br><br>
+    <button type="submit" class="theme2">Set Reminder</button>
+  </form>
+
+  <h2 class="theme1">Reminders:</h2>
+  <ul id="remindersList"></ul><br><br>
+
+  <script src="script.js"></script>
+</body>
+</html>
